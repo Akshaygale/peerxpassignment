@@ -36,3 +36,116 @@
     transform: rotate(360deg);
   }
 }
+
+/* ------------------------------------------------------------------------------------------- */
+/* HEADER */
+.navigation{
+  margin-left: 130px;
+  margin-right: 130px;
+  font-size: xx-large;
+  padding: 15px;
+}
+.header{
+  background-color:palegreen;
+  height: 60px;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
+/* PAGE.js AUTHOR.js Tags.js  *//* POST.js */ 
+.posttotalBox{
+  border: 1px solid black;
+  width:300px;
+  height: 100px;
+  padding-top: 10px;
+  text-align: center;
+  margin-left: 50px;
+  font-size: x-large;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+
+/* DASHBORD */
+.allbox{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* TOP FIVE POST */
+.image-design{
+  width: 300px;
+  height: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+
+}
+.heading{
+  text-decoration: underline brown;
+}
+.topPosts{
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  
+}
+
+
+/* CHART */
+.chrt{
+  width: 800px;
+  height: 50px;
+  position: absolute;
+  left: 700px;
+  top: 280px;
+
+}
+
+/* POST_LIST_PAGES */
+.pagebox{
+  display: flex;
+  flex-wrap: wrap;
+}
+.listpostBox{
+  border: 1px solid black;
+  width: 600px;
+  margin: 30px;
+  margin-left: 100px;
+  text-align: left;
+
+}
+.headingBox{
+  font-size: xx-large;
+  margin-top: 0px;
+  text-decoration: underline lightblue;
+  text-align: center;
+  margin-top: 20px;
+}
+.postlistImage{
+  width: 90%;
+  margin-left: 20px;
+}
+.titleline{
+  margin-top: 0px;
+  text-align: center;
+}
+
+
+
+.listpostBox2{
+  border: 1px solid red;
+  width: 720px;
+  /* height: 60px; */
+  margin-left: 100px;
+}
+.listpostBox3{
+  border: 1px solid yellow;
+  width: 320px;
+  height: 60px;
+}
+.image{
+  width: 100px;
+}
+.htmlword{
+  display: none;
+}
