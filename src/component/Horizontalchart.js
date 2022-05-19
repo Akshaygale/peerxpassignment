@@ -30,7 +30,7 @@ const options = {
   };
 
 const Horizontalchart =() => {
-    const [data, setData] = useState({
+    const [data] = useState({
         labels:['Jan','Feb','March','April','May','June','July','Aug','Sept','Oct','Nov','Dec'],
         datasets: [
           {
